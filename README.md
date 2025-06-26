@@ -1,2 +1,2 @@
-# sorting-visualizer-3D
+# Sorting Visualizer 3D
 Hackaccino
