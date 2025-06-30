@@ -40,6 +40,7 @@ function bubbleSort() {
         }
         
         if (j >= numbers.length - i - 1) {
+            
             bars[numbers.length - 1 - i].setAttribute('color', '#2ecc71');
             i++;
             j = 0;
@@ -96,5 +97,3 @@ function bubbleSort() {
     
     nextStep();
 }
-
-
