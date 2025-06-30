@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>sorting-visualizer-3D</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="controls">
+        <h2>sorting-visualizer-3D</h2>
+        <button onclick="shuffle()">Shuffle</button>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+    </div>
+
+    <a-scene background="color: black">
+        <a-box position="-8 4 0" width="1.2" height="8" depth="1" color="#3498db"></a-box>
+        <a-box position="-6.5 1.5 0" width="1.2" height="3" depth="1" color="#3498db"></a-box>
+        <a-box position="-5 2.5 0" width="1.2" height="5" depth="1" color="#3498db"></a-box>
+        <a-box position="-3.5 2 0" width="1.2" height="4" depth="1" color="#3498db"></a-box>
+        <a-box position="-2 3.5 0" width="1.2" height="7" depth="1" color="#3498db"></a-box>
+        <a-box position="-0.5 3 0" width="1.2" height="6" depth="1" color="#3498db"></a-box>
+        <a-box position="1 0.5 0" width="1.2" height="1" depth="1" color="#3498db"></a-box>
+        <a-box position="2.5 1 0" width="1.2" height="2" depth="1" color="#3498db"></a-box>
+        <a-box position="4 4.5 0" width="1.2" height="9" depth="1" color="#3498db"></a-box>
+        <a-box position="5.5 5 0" width="1.2" height="10" depth="1" color="#3498db"></a-box>
+        <a-box position="7 6 0" width="1.2" height="12" depth="1" color="#3498db"></a-box>
+        <a-box position="8.5 5.5 0" width="1.2" height="11" depth="1" color="#3498db"></a-box>
+        
+        <a-light type="ambient" color="#666"></a-light>
+        <a-light type="directional" position="0 10 5" color="white"></a-light>
+        <a-camera position="0 5 15" look-controls wasd-controls></a-camera>
+    </a-scene>
+    
+    <script src="script.js"></script>
+</body>
+</html>
